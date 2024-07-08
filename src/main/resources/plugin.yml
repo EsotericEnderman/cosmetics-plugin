@@ -1,0 +1,16 @@
+name: Slime-Cosmetics
+version: '${project.version}'
+main: net.slqmy.slime_cosmetics.SlimeCosmeticsPlugin
+api-version: '1.20'
+prefix: Slime Cosmetics
+author: slqmy
+description: A very simple cosmetics plugin featuring hats and trails!
+commands:
+  cosmetics:
+    description: Access the cosmetics menu.
+    aliases: [ hats, trails, cosms, particles ]
+    usage: §cInvalid command usage, please use /cosmetics!
+  manage-cosmetics:
+    description: Manage server members' cosmetics.
+    aliases: [ manage-cosms ]
+    usage: §cInvalid command usage, please use /manage-cosmetics <give | take> <player> <cosmetic name>!
