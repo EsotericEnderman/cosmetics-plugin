@@ -1,12 +1,13 @@
-package net.slqmy.slime_cosmetics.cosmetics.hats;
+package net.slqmy.slime_cosmetics_plugin.cosmetics.hats;
 
-import net.slqmy.slime_cosmetics.AbstractCosmetic;
-import net.slqmy.slime_cosmetics.SlimeCosmeticsPlugin;
-import net.slqmy.slime_cosmetics.utility.DebugUtility;
-import net.slqmy.slime_cosmetics.utility.ItemUtility;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
+
+import net.slqmy.slime_cosmetics_plugin.AbstractCosmetic;
+import net.slqmy.slime_cosmetics_plugin.SlimeCosmeticsPlugin;
+import net.slqmy.slime_cosmetics_plugin.utility.DebugUtility;
+import net.slqmy.slime_cosmetics_plugin.utility.ItemUtility;
 
 public final class Hat extends AbstractCosmetic {
 	private final HatType hatType;

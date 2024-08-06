@@ -1,4 +1,4 @@
-package net.slqmy.slime_cosmetics.utility.types;
+package net.slqmy.slime_cosmetics_plugin.utility.types;
 
 import org.bukkit.enchantments.Enchantment;
 import org.jetbrains.annotations.NotNull;

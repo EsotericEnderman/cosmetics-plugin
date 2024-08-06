@@ -1,4 +1,4 @@
-package net.slqmy.slime_cosmetics.cosmetics.hats;
+package net.slqmy.slime_cosmetics_plugin.cosmetics.hats;
 
 import org.bukkit.ChatColor;
 import org.jetbrains.annotations.NotNull;

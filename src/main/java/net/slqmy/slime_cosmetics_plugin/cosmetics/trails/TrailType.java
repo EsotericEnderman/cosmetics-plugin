@@ -1,4 +1,4 @@
-package net.slqmy.slime_cosmetics.cosmetics.trails;
+package net.slqmy.slime_cosmetics_plugin.cosmetics.trails;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Particle;
@@ -21,30 +21,30 @@ public enum TrailType {
 			ChatColor.BLUE + "Water",
 			"Conquer the waves with this dripped out trail!",
 			"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTQ0MjE3ODJmYTllMDQxY2E4Y2NlNmFhYzNhMGIzMzdlY2MxYjk3MWIxNjhlY2JlZWY2OGI4ODEzZWUzOTZkYiJ9fX0=",
-			Particle.WATER_SPLASH),
+			Particle.SPLASH),
 	BUBBLE(
 			ChatColor.WHITE + "Bubble",
 			"The bubbliest trail there is!",
 			"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjhmYjQwNGFmY2VhMTg3MTg3MmI4MWM3MTM5N2E1YzE2NTY0Mjg2MjYxZTI2NDdmZDY3NmZmYjk5MTc2MzJhZiJ9fX0=",
-			Particle.WATER_BUBBLE),
+			Particle.BUBBLE),
 	ANGER(
 			ChatColor.RED + "Anger",
 			"Are you infuriated? This trail is for you.",
 			"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGE0NjY0M2E0NjI5NzU3NjEwZDljMWQyMDAyYWIyYThjOGM5ZjFjYzIwNjhkNzllMzhkNWU4ODY3N2U4ODAyMSJ9fX0=",
-			Particle.VILLAGER_ANGRY,
+			Particle.ANGRY_VILLAGER,
 			new Vector(0, 1.795, 0)),
 	EXPLOSIVE(
 			ChatColor.GOLD + "Explosive",
 			"You're about to blow up!",
 			"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWU0MzUyNjgwZDBiYjI5YjkxMzhhZjc4MzMwMWEzOTFiMzQwOTBjYjQ5NDFkNTJjMDg3Y2E3M2M4MDM2Y2I1MSJ9fX0=",
-			Particle.EXPLOSION_LARGE,
+			Particle.EXPLOSION,
 			new Vector(0, 1, 0)),
 
 	SLIME(
 			ChatColor.GREEN + "Slime",
 			ChatColor.GREEN.toString() + ChatColor.BOLD + "Slqmy" + ChatColor.GREEN + "'s favourite trail!",
 			"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThkZDdkNDM0MWExODhkZTBiOWJmMjNlZmU0MTljNjRhMzQ1ODNjNjExYzFlYzllMWJjNzVmNGJhOWJlYzY1YyJ9fX0=",
-			Particle.SLIME);
+			Particle.ITEM_SLIME);
 
 	private final String name;
 	private final String description;

@@ -1,12 +1,5 @@
-package net.slqmy.slime_cosmetics.commands;
+package net.slqmy.slime_cosmetics_plugin.commands;
 
-import net.slqmy.slime_cosmetics.AbstractCosmetic;
-import net.slqmy.slime_cosmetics.SlimeCosmeticsPlugin;
-import net.slqmy.slime_cosmetics.cosmetics.hats.Hat;
-import net.slqmy.slime_cosmetics.cosmetics.hats.HatType;
-import net.slqmy.slime_cosmetics.cosmetics.trails.Trail;
-import net.slqmy.slime_cosmetics.cosmetics.trails.TrailType;
-import net.slqmy.slime_cosmetics.utility.PluginUtility;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
@@ -17,6 +10,14 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
+
+import net.slqmy.slime_cosmetics_plugin.AbstractCosmetic;
+import net.slqmy.slime_cosmetics_plugin.SlimeCosmeticsPlugin;
+import net.slqmy.slime_cosmetics_plugin.cosmetics.hats.Hat;
+import net.slqmy.slime_cosmetics_plugin.cosmetics.hats.HatType;
+import net.slqmy.slime_cosmetics_plugin.cosmetics.trails.Trail;
+import net.slqmy.slime_cosmetics_plugin.cosmetics.trails.TrailType;
+import net.slqmy.slime_cosmetics_plugin.utility.PluginUtility;
 
 import java.util.List;
 import java.util.Objects;

@@ -1,10 +1,12 @@
-package net.slqmy.slime_cosmetics.utility;
+package net.slqmy.slime_cosmetics_plugin.utility;
 
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.Multimap;
 import com.mojang.authlib.GameProfile;
 import com.mojang.authlib.properties.Property;
-import net.slqmy.slime_cosmetics.utility.types.ApplicableEnchantment;
+
+import net.slqmy.slime_cosmetics_plugin.utility.types.ApplicableEnchantment;
+
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;

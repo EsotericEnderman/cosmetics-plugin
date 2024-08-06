@@ -1,12 +1,12 @@
-package net.slqmy.slime_cosmetics;
+package net.slqmy.slime_cosmetics_plugin;
 
-import net.slqmy.slime_cosmetics.commands.ManageCosmeticsCommand;
-import net.slqmy.slime_cosmetics.custom_enchantments.GlowEnchantment;
-import net.slqmy.slime_cosmetics.navigation.CosmeticsCommand;
-import net.slqmy.slime_cosmetics.navigation.CosmeticsListener;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.Contract;
+
+import net.slqmy.slime_cosmetics_plugin.commands.ManageCosmeticsCommand;
+import net.slqmy.slime_cosmetics_plugin.navigation.CosmeticsCommand;
+import net.slqmy.slime_cosmetics_plugin.navigation.CosmeticsListener;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -29,8 +29,6 @@ public final class SlimeCosmeticsPlugin extends JavaPlugin {
 		Objects.requireNonNull(getCommand("cosmetics")).setExecutor(new CosmeticsCommand());
 
 		Bukkit.getPluginManager().registerEvents(new CosmeticsListener(this), this);
-
-		new GlowEnchantment();
 	}
 
 	@Contract(pure = true)

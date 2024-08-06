@@ -1,7 +1,5 @@
-package net.slqmy.slime_cosmetics.cosmetics.trails;
+package net.slqmy.slime_cosmetics_plugin.cosmetics.trails;
 
-import net.slqmy.slime_cosmetics.AbstractCosmetic;
-import net.slqmy.slime_cosmetics.SlimeCosmeticsPlugin;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Particle;
@@ -9,6 +7,9 @@ import org.bukkit.World;
 import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitTask;
 import org.jetbrains.annotations.NotNull;
+
+import net.slqmy.slime_cosmetics_plugin.AbstractCosmetic;
+import net.slqmy.slime_cosmetics_plugin.SlimeCosmeticsPlugin;
 
 public final class Trail extends AbstractCosmetic {
 

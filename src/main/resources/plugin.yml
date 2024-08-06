@@ -1,7 +1,7 @@
 name: Slime-Cosmetics
-version: '${project.version}'
-main: net.slqmy.slime_cosmetics.SlimeCosmeticsPlugin
-api-version: '1.20'
+version: '1.0.0-SNAPSHOT'
+main: net.slqmy.slime_cosmetics_plugin.SlimeCosmeticsPlugin
+api-version: '1.21'
 prefix: Slime Cosmetics
 author: slqmy
 description: A very simple cosmetics plugin featuring hats and trails!
