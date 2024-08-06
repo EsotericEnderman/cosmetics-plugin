@@ -64,11 +64,6 @@ public final class TrailsGUI {
 				hatMeta.getPersistentDataContainer().set(plugin.getTrailNameKey(), PersistentDataType.STRING, trail.name());
 
 				trailItem.setItemMeta(hatMeta);
-
-				// Note: this doesn't work, at least with player heads.
-				if (activeTrails.contains(trail)) {
-					ItemUtility.addEnchantmentGlow(trailItem);
-				}
 			} catch (NoSuchFieldException | IllegalAccessException exception) {
 				player.sendMessage(ChatColor.DARK_GRAY +
 						"| " +

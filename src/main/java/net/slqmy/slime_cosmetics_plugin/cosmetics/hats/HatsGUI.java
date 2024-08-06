@@ -60,11 +60,6 @@ public final class HatsGUI {
 				hatMeta.getPersistentDataContainer().set(plugin.getHatNameKey(), PersistentDataType.STRING, hat.name());
 
 				hatItem.setItemMeta(hatMeta);
-
-				// Note: this doesn't work, at least with player heads.
-				if (hat == activeHat) {
-					ItemUtility.addEnchantmentGlow(hatItem);
-				}
 			} catch (NoSuchFieldException | IllegalAccessException exception) {
 				player.sendMessage(ChatColor.DARK_GRAY +
 						"| " +

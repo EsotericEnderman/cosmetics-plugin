@@ -134,12 +134,4 @@ public final class ItemUtility {
 			throws NoSuchFieldException, IllegalAccessException {
 		return createCustomPlayerSkull(skullTextureValue, 1, displayName, lore);
 	}
-
-	public static @NotNull ItemStack addEnchantmentGlow(@NotNull ItemStack item) {
-		Enchantment glowEnchantment = Enchantment.getByKey(NamespacedKey.minecraft("glow"));
-		assert glowEnchantment != null;
-
-		item.addUnsafeEnchantment(glowEnchantment, 1);
-		return item;
-	}
 }

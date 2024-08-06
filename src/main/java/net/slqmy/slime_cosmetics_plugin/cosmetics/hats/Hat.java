@@ -20,8 +20,8 @@ public final class Hat extends AbstractCosmetic {
 	@Override
 	public void enable() {
 		try {
-			player.getInventory().setHelmet(ItemUtility.addEnchantmentGlow(
-					ItemUtility.createCustomPlayerSkull(hatType.getValue(), hatType.getDisplayName(), hatType.getDescription())));
+			player.getInventory().setHelmet(
+					ItemUtility.createCustomPlayerSkull(hatType.getValue(), hatType.getDisplayName(), hatType.getDescription()));
 		} catch (NoSuchFieldException | IllegalAccessException exception) {
 			player.sendMessage(ChatColor.DARK_GRAY + "| " + ChatColor.RED + "Sorry, an error occurred while giving you the "
 					+ hatType.getDisplayName() + ChatColor.RED + " hat. Please report this to your server admin!");
