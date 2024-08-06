@@ -1,3 +1,5 @@
 target
 build
 run
+bin
+.gradle
