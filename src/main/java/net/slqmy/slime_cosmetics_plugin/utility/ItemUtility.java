@@ -114,7 +114,7 @@ public final class ItemUtility {
 		UUID skullUUID = UUID.nameUUIDFromBytes(
 				(displayName == null ? skullMeta.getDisplayName() : displayName).getBytes());
 
-		GameProfile profile = new GameProfile(skullUUID, null);
+		GameProfile profile = new GameProfile(skullUUID, "name");
 		profile.getProperties().put("textures", new Property("textures", skullTextureValue));
 
 		field = skullMeta.getClass().getDeclaredField("profile");
