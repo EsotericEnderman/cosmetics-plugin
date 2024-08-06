@@ -9,6 +9,7 @@ import org.bukkit.event.inventory.InventoryType;
 import org.bukkit.event.player.PlayerQuitEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
+import org.bukkit.persistence.PersistentDataType;
 import org.jetbrains.annotations.NotNull;
 
 import net.slqmy.slime_cosmetics_plugin.AbstractCosmetic;
@@ -71,7 +72,7 @@ public final class CosmeticsListener implements Listener {
 			final ItemMeta clickedItemMeta = clickedItem.getItemMeta();
 			assert clickedItemMeta != null;
 
-			final HatType hatType = HatType.valueOf(clickedItemMeta.getLocalizedName());
+			final HatType hatType = HatType.valueOf(clickedItemMeta.getPersistentDataContainer().get(plugin.getHatNameKey(), PersistentDataType.STRING));
 
 			if (!ownedCosmetics.contains(hatType.name())) {
 				player.sendMessage(ChatColor.RED + "Sorry, you don't own this hat!");
@@ -112,7 +113,7 @@ public final class CosmeticsListener implements Listener {
 			final ItemMeta clickedItemMeta = clickedItem.getItemMeta();
 			assert clickedItemMeta != null;
 
-			final TrailType trailType = TrailType.valueOf(clickedItemMeta.getLocalizedName());
+			final TrailType trailType = TrailType.valueOf(clickedItemMeta.getPersistentDataContainer().get(plugin.getTrailNameKey(), PersistentDataType.STRING));
 
 			if (!ownedCosmetics.contains(trailType.name())) {
 				player.sendMessage(ChatColor.RED + "Sorry, you don't own this trail!");

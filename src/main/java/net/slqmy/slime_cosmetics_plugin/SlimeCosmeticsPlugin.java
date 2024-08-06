@@ -1,6 +1,7 @@
 package net.slqmy.slime_cosmetics_plugin;
 
 import org.bukkit.Bukkit;
+import org.bukkit.NamespacedKey;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.Contract;
 
@@ -18,6 +19,10 @@ public final class SlimeCosmeticsPlugin extends JavaPlugin {
 
 	private final HashMap<UUID, ArrayList<AbstractCosmetic>> activeCosmetics = new HashMap<>();
 
+	private final NamespacedKey hatNameKey = new NamespacedKey(this, "hat_name"); 
+
+	private final NamespacedKey trailNameKey = new NamespacedKey(this, "trail_name"); 
+
 	@Override
 	public void onEnable() {
 		getDataFolder().mkdir();
@@ -34,5 +39,13 @@ public final class SlimeCosmeticsPlugin extends JavaPlugin {
 	@Contract(pure = true)
 	public Map<UUID, ArrayList<AbstractCosmetic>> getActiveCosmetics() {
 		return activeCosmetics;
+	}
+
+	public NamespacedKey getHatNameKey() {
+		return hatNameKey;
+	}
+
+	public NamespacedKey getTrailNameKey() {
+		return trailNameKey;
 	}
 }

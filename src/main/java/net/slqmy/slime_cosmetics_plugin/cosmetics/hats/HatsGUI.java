@@ -6,6 +6,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
+import org.bukkit.persistence.PersistentDataType;
 import org.jetbrains.annotations.NotNull;
 
 import net.slqmy.slime_cosmetics_plugin.AbstractCosmetic;
@@ -56,7 +57,7 @@ public final class HatsGUI {
 
 				final ItemMeta hatMeta = hatItem.getItemMeta();
 				assert hatMeta != null;
-				hatMeta.setLocalizedName(hat.name());
+				hatMeta.getPersistentDataContainer().set(plugin.getHatNameKey(), PersistentDataType.STRING, hat.name());
 
 				hatItem.setItemMeta(hatMeta);
 

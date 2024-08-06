@@ -6,6 +6,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
+import org.bukkit.persistence.PersistentDataType;
 import org.jetbrains.annotations.NotNull;
 
 import net.slqmy.slime_cosmetics_plugin.AbstractCosmetic;
@@ -60,7 +61,7 @@ public final class TrailsGUI {
 
 				final ItemMeta hatMeta = trailItem.getItemMeta();
 				assert hatMeta != null;
-				hatMeta.setLocalizedName(trail.name());
+				hatMeta.getPersistentDataContainer().set(plugin.getTrailNameKey(), PersistentDataType.STRING, trail.name());
 
 				trailItem.setItemMeta(hatMeta);
 
