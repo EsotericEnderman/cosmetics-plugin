@@ -7,9 +7,9 @@ import java.util.logging.Logger;
 
 public final class PluginUtility {
 
-	private static final Logger LOGGER = Bukkit.getLogger();
+    private static final Logger LOGGER = Bukkit.getLogger();
 
-	public static void log(@NotNull final String message) {
-		LOGGER.info(message);
-	}
+    public static void log(@NotNull final String message) {
+        LOGGER.info(message);
+    }
 }
