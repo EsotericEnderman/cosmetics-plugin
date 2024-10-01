@@ -1,6 +1,6 @@
 name: slime-cosmetics-plugin
 version: '1.0.0-SNAPSHOT'
-main: net.esoteric_enderman.slime_cosmetics_plugin.SlimeCosmeticsPlugin
+main: dev.esoteric_enderman.slime_cosmetics_plugin.SlimeCosmeticsPlugin
 api-version: '1.21'
 prefix: slime-cosmetics-plugin
 author: Esoteric Enderman
