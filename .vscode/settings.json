@@ -1,4 +1,14 @@
 {
     "java.compile.nullAnalysis.mode": "automatic",
-    "java.configuration.updateBuildConfiguration": "automatic"
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "cSpell.words": [
+        "blanzingly",
+        "Bukkit",
+        "cosms",
+        "enderman",
+        "favourite",
+        "guis",
+        "Multimap",
+        "Slqmy"
+    ]
 }
