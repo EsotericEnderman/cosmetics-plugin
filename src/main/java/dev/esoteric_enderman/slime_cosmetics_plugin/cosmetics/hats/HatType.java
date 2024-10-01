@@ -4,7 +4,7 @@ import org.bukkit.ChatColor;
 import org.jetbrains.annotations.NotNull;
 
 public enum HatType {
-	TOPHAT(
+	TOP_HAT(
 			ChatColor.DARK_GREEN + "Top Hat",
 			"A very fancy top hat.",
 			"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWYyYjk1ODk5OWY4YWZiY2I0OGE2YzE2Y2Q5ZGM5ZDM1NWQwNGUzNGI2ODdjZjI1NTFmZWQ1YjMyZThmODMxIn19fQ=="),
