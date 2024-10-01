@@ -1,4 +1,4 @@
-package net.slqmy.slime_cosmetics_plugin.navigation.guis;
+package dev.esoteric_enderman.slime_cosmetics_plugin.navigation.guis;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -9,7 +9,7 @@ import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.jetbrains.annotations.NotNull;
 
-import net.slqmy.slime_cosmetics_plugin.utility.ItemUtility;
+import dev.esoteric_enderman.slime_cosmetics_plugin.utility.ItemUtility;
 
 // Idea: make a GUI manager.
 public final class CosmeticsGUI implements Listener {

@@ -1,4 +1,4 @@
-package net.slqmy.slime_cosmetics_plugin.commands;
+package dev.esoteric_enderman.slime_cosmetics_plugin.commands;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -11,13 +11,13 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 
-import net.slqmy.slime_cosmetics_plugin.AbstractCosmetic;
-import net.slqmy.slime_cosmetics_plugin.SlimeCosmeticsPlugin;
-import net.slqmy.slime_cosmetics_plugin.cosmetics.hats.Hat;
-import net.slqmy.slime_cosmetics_plugin.cosmetics.hats.HatType;
-import net.slqmy.slime_cosmetics_plugin.cosmetics.trails.Trail;
-import net.slqmy.slime_cosmetics_plugin.cosmetics.trails.TrailType;
-import net.slqmy.slime_cosmetics_plugin.utility.PluginUtility;
+import dev.esoteric_enderman.slime_cosmetics_plugin.AbstractCosmetic;
+import dev.esoteric_enderman.slime_cosmetics_plugin.SlimeCosmeticsPlugin;
+import dev.esoteric_enderman.slime_cosmetics_plugin.cosmetics.hats.Hat;
+import dev.esoteric_enderman.slime_cosmetics_plugin.cosmetics.hats.HatType;
+import dev.esoteric_enderman.slime_cosmetics_plugin.cosmetics.trails.Trail;
+import dev.esoteric_enderman.slime_cosmetics_plugin.cosmetics.trails.TrailType;
+import dev.esoteric_enderman.slime_cosmetics_plugin.utility.PluginUtility;
 
 import java.util.List;
 import java.util.Objects;

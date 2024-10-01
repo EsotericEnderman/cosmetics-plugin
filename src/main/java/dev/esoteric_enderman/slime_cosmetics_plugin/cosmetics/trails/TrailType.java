@@ -1,4 +1,4 @@
-package net.slqmy.slime_cosmetics_plugin.cosmetics.trails;
+package dev.esoteric_enderman.slime_cosmetics_plugin.cosmetics.trails;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Particle;

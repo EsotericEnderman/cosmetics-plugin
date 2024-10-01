@@ -1,4 +1,4 @@
-package net.slqmy.slime_cosmetics_plugin.navigation;
+package dev.esoteric_enderman.slime_cosmetics_plugin.navigation;
 
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
@@ -12,15 +12,15 @@ import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.persistence.PersistentDataType;
 import org.jetbrains.annotations.NotNull;
 
-import net.slqmy.slime_cosmetics_plugin.AbstractCosmetic;
-import net.slqmy.slime_cosmetics_plugin.SlimeCosmeticsPlugin;
-import net.slqmy.slime_cosmetics_plugin.cosmetics.hats.Hat;
-import net.slqmy.slime_cosmetics_plugin.cosmetics.hats.HatType;
-import net.slqmy.slime_cosmetics_plugin.cosmetics.hats.HatsGUI;
-import net.slqmy.slime_cosmetics_plugin.cosmetics.trails.Trail;
-import net.slqmy.slime_cosmetics_plugin.cosmetics.trails.TrailType;
-import net.slqmy.slime_cosmetics_plugin.cosmetics.trails.TrailsGUI;
-import net.slqmy.slime_cosmetics_plugin.utility.PluginUtility;
+import dev.esoteric_enderman.slime_cosmetics_plugin.AbstractCosmetic;
+import dev.esoteric_enderman.slime_cosmetics_plugin.SlimeCosmeticsPlugin;
+import dev.esoteric_enderman.slime_cosmetics_plugin.cosmetics.hats.Hat;
+import dev.esoteric_enderman.slime_cosmetics_plugin.cosmetics.hats.HatType;
+import dev.esoteric_enderman.slime_cosmetics_plugin.cosmetics.hats.HatsGUI;
+import dev.esoteric_enderman.slime_cosmetics_plugin.cosmetics.trails.Trail;
+import dev.esoteric_enderman.slime_cosmetics_plugin.cosmetics.trails.TrailType;
+import dev.esoteric_enderman.slime_cosmetics_plugin.cosmetics.trails.TrailsGUI;
+import dev.esoteric_enderman.slime_cosmetics_plugin.utility.PluginUtility;
 
 import java.util.ArrayList;
 import java.util.List;

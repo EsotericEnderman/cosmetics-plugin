@@ -1,13 +1,13 @@
-package net.slqmy.slime_cosmetics_plugin.cosmetics.hats;
+package dev.esoteric_enderman.slime_cosmetics_plugin.cosmetics.hats;
 
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 
-import net.slqmy.slime_cosmetics_plugin.AbstractCosmetic;
-import net.slqmy.slime_cosmetics_plugin.SlimeCosmeticsPlugin;
-import net.slqmy.slime_cosmetics_plugin.utility.DebugUtility;
-import net.slqmy.slime_cosmetics_plugin.utility.ItemUtility;
+import dev.esoteric_enderman.slime_cosmetics_plugin.AbstractCosmetic;
+import dev.esoteric_enderman.slime_cosmetics_plugin.SlimeCosmeticsPlugin;
+import dev.esoteric_enderman.slime_cosmetics_plugin.utility.DebugUtility;
+import dev.esoteric_enderman.slime_cosmetics_plugin.utility.ItemUtility;
 
 public final class Hat extends AbstractCosmetic {
 	private final HatType hatType;

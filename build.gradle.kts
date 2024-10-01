@@ -38,10 +38,10 @@ fun pascalcase(kebabcaseString: String): String {
 
 description = "A very simple cosmetics plugin featuring hats and trails!"
 
-val mainProjectAuthor = "Slqmy"
+val mainProjectAuthor = "Esoteric Enderman"
 val projectAuthors = listOfNotNull(mainProjectAuthor)
 
-val topLevelDomain = "net"
+val topLevelDomain = "dev"
 
 val projectNameString = rootProject.name
 

@@ -1,13 +1,13 @@
-package net.slqmy.slime_cosmetics_plugin;
+package dev.esoteric_enderman.slime_cosmetics_plugin;
 
 import org.bukkit.Bukkit;
 import org.bukkit.NamespacedKey;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.Contract;
 
-import net.slqmy.slime_cosmetics_plugin.commands.ManageCosmeticsCommand;
-import net.slqmy.slime_cosmetics_plugin.navigation.CosmeticsCommand;
-import net.slqmy.slime_cosmetics_plugin.navigation.CosmeticsListener;
+import dev.esoteric_enderman.slime_cosmetics_plugin.commands.ManageCosmeticsCommand;
+import dev.esoteric_enderman.slime_cosmetics_plugin.navigation.CosmeticsCommand;
+import dev.esoteric_enderman.slime_cosmetics_plugin.navigation.CosmeticsListener;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package net.slqmy.slime_cosmetics_plugin.cosmetics.trails;
+package dev.esoteric_enderman.slime_cosmetics_plugin.cosmetics.trails;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
@@ -8,8 +8,8 @@ import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitTask;
 import org.jetbrains.annotations.NotNull;
 
-import net.slqmy.slime_cosmetics_plugin.AbstractCosmetic;
-import net.slqmy.slime_cosmetics_plugin.SlimeCosmeticsPlugin;
+import dev.esoteric_enderman.slime_cosmetics_plugin.AbstractCosmetic;
+import dev.esoteric_enderman.slime_cosmetics_plugin.SlimeCosmeticsPlugin;
 
 public final class Trail extends AbstractCosmetic {
 

@@ -1,4 +1,4 @@
-package net.slqmy.slime_cosmetics_plugin.cosmetics.trails;
+package dev.esoteric_enderman.slime_cosmetics_plugin.cosmetics.trails;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -9,10 +9,10 @@ import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.persistence.PersistentDataType;
 import org.jetbrains.annotations.NotNull;
 
-import net.slqmy.slime_cosmetics_plugin.AbstractCosmetic;
-import net.slqmy.slime_cosmetics_plugin.SlimeCosmeticsPlugin;
-import net.slqmy.slime_cosmetics_plugin.utility.DebugUtility;
-import net.slqmy.slime_cosmetics_plugin.utility.ItemUtility;
+import dev.esoteric_enderman.slime_cosmetics_plugin.AbstractCosmetic;
+import dev.esoteric_enderman.slime_cosmetics_plugin.SlimeCosmeticsPlugin;
+import dev.esoteric_enderman.slime_cosmetics_plugin.utility.DebugUtility;
+import dev.esoteric_enderman.slime_cosmetics_plugin.utility.ItemUtility;
 
 import java.util.ArrayList;
 import java.util.List;

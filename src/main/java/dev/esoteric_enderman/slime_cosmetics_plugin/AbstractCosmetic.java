@@ -1,4 +1,4 @@
-package net.slqmy.slime_cosmetics_plugin;
+package dev.esoteric_enderman.slime_cosmetics_plugin;
 
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;

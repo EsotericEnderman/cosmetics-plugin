@@ -1,4 +1,4 @@
-package net.slqmy.slime_cosmetics_plugin.navigation;
+package dev.esoteric_enderman.slime_cosmetics_plugin.navigation;
 
 import org.bukkit.Location;
 import org.bukkit.command.BlockCommandSender;
@@ -8,8 +8,8 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 
-import net.slqmy.slime_cosmetics_plugin.navigation.guis.CosmeticsGUI;
-import net.slqmy.slime_cosmetics_plugin.utility.PluginUtility;
+import dev.esoteric_enderman.slime_cosmetics_plugin.navigation.guis.CosmeticsGUI;
+import dev.esoteric_enderman.slime_cosmetics_plugin.utility.PluginUtility;
 
 import java.util.Objects;
 
