@@ -1,12 +1,12 @@
-package dev.esoteric_enderman.slime_cosmetics_plugin.commands;
+package dev.enderman.minecraft.plugins.cosmetics.commands;
 
-import dev.esoteric_enderman.slime_cosmetics_plugin.AbstractCosmetic;
-import dev.esoteric_enderman.slime_cosmetics_plugin.SlimeCosmeticsPlugin;
-import dev.esoteric_enderman.slime_cosmetics_plugin.cosmetics.hats.Hat;
-import dev.esoteric_enderman.slime_cosmetics_plugin.cosmetics.hats.HatType;
-import dev.esoteric_enderman.slime_cosmetics_plugin.cosmetics.trails.Trail;
-import dev.esoteric_enderman.slime_cosmetics_plugin.cosmetics.trails.TrailType;
-import dev.esoteric_enderman.slime_cosmetics_plugin.utility.PluginUtility;
+import dev.enderman.minecraft.plugins.cosmetics.AbstractCosmetic;
+import dev.enderman.minecraft.plugins.cosmetics.CosmeticsPlugin;
+import dev.enderman.minecraft.plugins.cosmetics.cosmetics.hats.Hat;
+import dev.enderman.minecraft.plugins.cosmetics.cosmetics.hats.HatType;
+import dev.enderman.minecraft.plugins.cosmetics.cosmetics.trails.Trail;
+import dev.enderman.minecraft.plugins.cosmetics.cosmetics.trails.TrailType;
+import dev.enderman.minecraft.plugins.cosmetics.utility.PluginUtility;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
@@ -23,9 +23,9 @@ import java.util.Objects;
 
 public final class ManageCosmeticsCommand implements CommandExecutor {
 
-    private final SlimeCosmeticsPlugin plugin;
+    private final CosmeticsPlugin plugin;
 
-    public ManageCosmeticsCommand(@NotNull final SlimeCosmeticsPlugin plugin) {
+    public ManageCosmeticsCommand(@NotNull final CosmeticsPlugin plugin) {
         this.plugin = plugin;
     }
 

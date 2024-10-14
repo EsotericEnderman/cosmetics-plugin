@@ -1,7 +1,7 @@
-package dev.esoteric_enderman.slime_cosmetics_plugin.navigation;
+package dev.enderman.minecraft.plugins.cosmetics.navigation;
 
-import dev.esoteric_enderman.slime_cosmetics_plugin.navigation.guis.CosmeticsGUI;
-import dev.esoteric_enderman.slime_cosmetics_plugin.utility.PluginUtility;
+import dev.enderman.minecraft.plugins.cosmetics.navigation.guis.CosmeticsGUI;
+import dev.enderman.minecraft.plugins.cosmetics.utility.PluginUtility;
 import org.bukkit.Location;
 import org.bukkit.command.BlockCommandSender;
 import org.bukkit.command.Command;

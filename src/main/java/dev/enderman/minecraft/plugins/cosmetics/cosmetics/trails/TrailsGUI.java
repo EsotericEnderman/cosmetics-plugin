@@ -1,9 +1,9 @@
-package dev.esoteric_enderman.slime_cosmetics_plugin.cosmetics.trails;
+package dev.enderman.minecraft.plugins.cosmetics.cosmetics.trails;
 
-import dev.esoteric_enderman.slime_cosmetics_plugin.AbstractCosmetic;
-import dev.esoteric_enderman.slime_cosmetics_plugin.SlimeCosmeticsPlugin;
-import dev.esoteric_enderman.slime_cosmetics_plugin.utility.DebugUtility;
-import dev.esoteric_enderman.slime_cosmetics_plugin.utility.ItemUtility;
+import dev.enderman.minecraft.plugins.cosmetics.AbstractCosmetic;
+import dev.enderman.minecraft.plugins.cosmetics.CosmeticsPlugin;
+import dev.enderman.minecraft.plugins.cosmetics.utility.DebugUtility;
+import dev.enderman.minecraft.plugins.cosmetics.utility.ItemUtility;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
@@ -20,7 +20,7 @@ import java.util.UUID;
 
 public final class TrailsGUI {
 
-    public TrailsGUI(@NotNull final SlimeCosmeticsPlugin plugin, @NotNull final Player player) {
+    public TrailsGUI(@NotNull final CosmeticsPlugin plugin, @NotNull final Player player) {
         final Inventory inventory = Bukkit.createInventory(
                 null,
                 27,

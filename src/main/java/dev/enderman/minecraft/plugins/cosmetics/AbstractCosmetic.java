@@ -1,4 +1,4 @@
-package dev.esoteric_enderman.slime_cosmetics_plugin;
+package dev.enderman.minecraft.plugins.cosmetics;
 
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
@@ -6,9 +6,9 @@ import org.jetbrains.annotations.NotNull;
 public abstract class AbstractCosmetic {
 
     protected final Player player;
-    protected SlimeCosmeticsPlugin plugin;
+    protected CosmeticsPlugin plugin;
 
-    protected AbstractCosmetic(@NotNull final SlimeCosmeticsPlugin plugin, @NotNull final Player player) {
+    protected AbstractCosmetic(@NotNull final CosmeticsPlugin plugin, @NotNull final Player player) {
         this.plugin = plugin;
         this.player = player;
     }

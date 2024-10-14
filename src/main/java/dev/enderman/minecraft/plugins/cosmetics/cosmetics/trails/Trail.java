@@ -1,7 +1,7 @@
-package dev.esoteric_enderman.slime_cosmetics_plugin.cosmetics.trails;
+package dev.enderman.minecraft.plugins.cosmetics.cosmetics.trails;
 
-import dev.esoteric_enderman.slime_cosmetics_plugin.AbstractCosmetic;
-import dev.esoteric_enderman.slime_cosmetics_plugin.SlimeCosmeticsPlugin;
+import dev.enderman.minecraft.plugins.cosmetics.AbstractCosmetic;
+import dev.enderman.minecraft.plugins.cosmetics.CosmeticsPlugin;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Particle;
@@ -16,7 +16,7 @@ public final class Trail extends AbstractCosmetic {
 
     private BukkitTask task;
 
-    public Trail(@NotNull SlimeCosmeticsPlugin plugin, @NotNull Player player, @NotNull final TrailType trail) {
+    public Trail(@NotNull CosmeticsPlugin plugin, @NotNull Player player, @NotNull final TrailType trail) {
         super(plugin, player);
 
         this.plugin = plugin;

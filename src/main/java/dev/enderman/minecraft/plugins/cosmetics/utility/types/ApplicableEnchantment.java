@@ -1,4 +1,4 @@
-package dev.esoteric_enderman.slime_cosmetics_plugin.utility.types;
+package dev.enderman.minecraft.plugins.cosmetics.utility.types;
 
 import org.bukkit.enchantments.Enchantment;
 import org.jetbrains.annotations.NotNull;

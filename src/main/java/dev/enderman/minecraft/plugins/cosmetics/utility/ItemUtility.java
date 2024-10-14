@@ -1,10 +1,10 @@
-package dev.esoteric_enderman.slime_cosmetics_plugin.utility;
+package dev.enderman.minecraft.plugins.cosmetics.utility;
 
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.Multimap;
 import com.mojang.authlib.GameProfile;
 import com.mojang.authlib.properties.Property;
-import dev.esoteric_enderman.slime_cosmetics_plugin.utility.types.ApplicableEnchantment;
+import dev.enderman.minecraft.plugins.cosmetics.utility.types.ApplicableEnchantment;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.attribute.Attribute;

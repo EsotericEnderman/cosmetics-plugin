@@ -1,8 +1,8 @@
-name: slime-cosmetics-plugin
+name: Cosmetics
 version: '1.0.0-SNAPSHOT'
-main: dev.esoteric_enderman.slime_cosmetics_plugin.SlimeCosmeticsPlugin
+main: dev.enderman.minecraft.plugins.cosmetics.CosmeticsPlugin
 api-version: '1.21'
-prefix: slime-cosmetics-plugin
+prefix: Cosmetics
 author: Esoteric Enderman
 description: A very simple Minecraft cosmetics plugin featuring hats and trails!
 commands:

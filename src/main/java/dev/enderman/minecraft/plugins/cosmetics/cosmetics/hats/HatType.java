@@ -1,4 +1,4 @@
-package dev.esoteric_enderman.slime_cosmetics_plugin.cosmetics.hats;
+package dev.enderman.minecraft.plugins.cosmetics.cosmetics.hats;
 
 import org.bukkit.ChatColor;
 import org.jetbrains.annotations.NotNull;

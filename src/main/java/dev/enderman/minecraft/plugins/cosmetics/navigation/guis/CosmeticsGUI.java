@@ -1,6 +1,6 @@
-package dev.esoteric_enderman.slime_cosmetics_plugin.navigation.guis;
+package dev.enderman.minecraft.plugins.cosmetics.navigation.guis;
 
-import dev.esoteric_enderman.slime_cosmetics_plugin.utility.ItemUtility;
+import dev.enderman.minecraft.plugins.cosmetics.utility.ItemUtility;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;

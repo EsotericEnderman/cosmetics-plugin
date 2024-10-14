@@ -1,8 +1,8 @@
-package dev.esoteric_enderman.slime_cosmetics_plugin;
+package dev.enderman.minecraft.plugins.cosmetics;
 
-import dev.esoteric_enderman.slime_cosmetics_plugin.commands.ManageCosmeticsCommand;
-import dev.esoteric_enderman.slime_cosmetics_plugin.navigation.CosmeticsCommand;
-import dev.esoteric_enderman.slime_cosmetics_plugin.navigation.CosmeticsListener;
+import dev.enderman.minecraft.plugins.cosmetics.commands.ManageCosmeticsCommand;
+import dev.enderman.minecraft.plugins.cosmetics.navigation.CosmeticsCommand;
+import dev.enderman.minecraft.plugins.cosmetics.navigation.CosmeticsListener;
 import org.bukkit.Bukkit;
 import org.bukkit.NamespacedKey;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -10,7 +10,7 @@ import org.jetbrains.annotations.Contract;
 
 import java.util.*;
 
-public final class SlimeCosmeticsPlugin extends JavaPlugin {
+public final class CosmeticsPlugin extends JavaPlugin {
 
     private final HashMap<UUID, ArrayList<AbstractCosmetic>> activeCosmetics = new HashMap<>();
 

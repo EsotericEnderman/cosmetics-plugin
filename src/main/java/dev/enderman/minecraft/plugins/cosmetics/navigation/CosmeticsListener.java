@@ -1,14 +1,14 @@
-package dev.esoteric_enderman.slime_cosmetics_plugin.navigation;
+package dev.enderman.minecraft.plugins.cosmetics.navigation;
 
-import dev.esoteric_enderman.slime_cosmetics_plugin.AbstractCosmetic;
-import dev.esoteric_enderman.slime_cosmetics_plugin.SlimeCosmeticsPlugin;
-import dev.esoteric_enderman.slime_cosmetics_plugin.cosmetics.hats.Hat;
-import dev.esoteric_enderman.slime_cosmetics_plugin.cosmetics.hats.HatType;
-import dev.esoteric_enderman.slime_cosmetics_plugin.cosmetics.hats.HatsGUI;
-import dev.esoteric_enderman.slime_cosmetics_plugin.cosmetics.trails.Trail;
-import dev.esoteric_enderman.slime_cosmetics_plugin.cosmetics.trails.TrailType;
-import dev.esoteric_enderman.slime_cosmetics_plugin.cosmetics.trails.TrailsGUI;
-import dev.esoteric_enderman.slime_cosmetics_plugin.utility.PluginUtility;
+import dev.enderman.minecraft.plugins.cosmetics.AbstractCosmetic;
+import dev.enderman.minecraft.plugins.cosmetics.CosmeticsPlugin;
+import dev.enderman.minecraft.plugins.cosmetics.cosmetics.hats.Hat;
+import dev.enderman.minecraft.plugins.cosmetics.cosmetics.hats.HatType;
+import dev.enderman.minecraft.plugins.cosmetics.cosmetics.hats.HatsGUI;
+import dev.enderman.minecraft.plugins.cosmetics.cosmetics.trails.Trail;
+import dev.enderman.minecraft.plugins.cosmetics.cosmetics.trails.TrailType;
+import dev.enderman.minecraft.plugins.cosmetics.cosmetics.trails.TrailsGUI;
+import dev.enderman.minecraft.plugins.cosmetics.utility.PluginUtility;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -28,9 +28,9 @@ import java.util.UUID;
 
 public final class CosmeticsListener implements Listener {
 
-    private final SlimeCosmeticsPlugin plugin;
+    private final CosmeticsPlugin plugin;
 
-    public CosmeticsListener(@NotNull final SlimeCosmeticsPlugin plugin) {
+    public CosmeticsListener(@NotNull final CosmeticsPlugin plugin) {
         this.plugin = plugin;
     }
 

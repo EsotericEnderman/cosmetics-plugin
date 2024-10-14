@@ -45,7 +45,7 @@ val topLevelDomain = "dev"
 
 val projectNameString = rootProject.name
 
-group = topLevelDomain + groupStringSeparator + mainProjectAuthor.lowercase() + groupStringSeparator + snakecase(projectNameString)
+group = "dev.enderman"
 version = "1.0.0-SNAPSHOT"
 
 val buildDirectoryString = buildDir.toString()
