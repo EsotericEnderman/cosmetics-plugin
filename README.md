@@ -1,5 +1,7 @@
 # Cosmetics Plugin
 
+[![Project Status: Completed](./assets/images/badges/status.svg)](./)
+
 > A very simple Minecraft cosmetics plugin featuring hats and trails!
 
 ## License
